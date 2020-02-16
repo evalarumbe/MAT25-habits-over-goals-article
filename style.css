@@ -94,7 +94,15 @@ p {
 }
 
 li {
+  list-style-type: none;
   margin-bottom: 0.5rem;
+}
+
+li::before {
+  content: '\2014';
+  color: #ccc;
+  position: absolute;
+  margin-left: -3ch;
 }
 
 img {
