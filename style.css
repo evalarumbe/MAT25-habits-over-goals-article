@@ -10,9 +10,14 @@ html {
   line-height: 1.3;
 }
 
+/* Layout */
+
 .hero {
   height: 80vh;
   background-color: #ccc;
+  background-image: url('./images/00_focus-on-systems.jpg');
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,15 +46,43 @@ section:nth-of-type(2n+1) {
 .separator {
   height: 70vh;
   background-color: #888;
+  background-position: center;
+  background-size: cover;
 }
 
 .separator:nth-of-type(2n) {
   background-color: #ccc;
 }
 
+.separator:first-of-type {
+  background-image: url('./images/01_winners-losers-same-goals.jpg');
+}
+
+.separator:nth-of-type(2) {
+  background-image: url('./images/02_repeating-bad-habits-like-a-broken-record.jpg');
+}
+
+.separator:nth-of-type(3) {
+  background-image: url('./images/03_enjoy-the-process.jpg');
+}
+
+.separator:nth-of-type(4) {
+  background-image: url('./images/04_the-long-game.jpg');
+}
+
+.separator:nth-of-type(5) {
+  background-image: url('./images/05_fall-in-love-with-systems.jpg');
+}
+
+/* Content */
+
 h1 {
   font-family: 'Courier New', Courier, monospace;
   flex-grow: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  padding: 1rem;
+  border-radius: 3px;
 }
 
 h2 {
