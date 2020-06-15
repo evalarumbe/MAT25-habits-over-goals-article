@@ -23,10 +23,15 @@ html {
 }
 
 header {
-  background-color: rgba(183, 180, 175, 0.65);
+  background-color: rgba(0, 180, 175, 0.65);
+  transition: 0.5s ease-in-out;
   position: fixed;
   width: 100vw;
   top: 0;
+}
+
+#header.scrolled {
+  background-color: rgba(160, 180, 175, 0.65);
 }
 
 header>*,
