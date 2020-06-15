@@ -15,14 +15,11 @@ html {
 /* Layout */
 
 .hero {
-  height: 80vh;
+  height: 40vh;
   background-color: #ccc;
   background-image: url('./images/00_focus-on-systems.jpg');
   background-position: center;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 header {
