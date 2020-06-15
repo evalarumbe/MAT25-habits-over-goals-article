@@ -8,7 +8,7 @@
     new ScrollMagic.Scene({
       offset: 100,
     })
-      .setClassToggle(document.querySelector('#header'), 'scrolled')
+      .setClassToggle('#header', 'scrolled')
       .addTo(controller);
   };
   
