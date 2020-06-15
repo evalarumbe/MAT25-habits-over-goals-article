@@ -24,7 +24,8 @@ html {
 
 header {
   background-color: rgba(183, 180, 175, 0.65);
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
 }
 
